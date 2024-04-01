@@ -1,0 +1,153 @@
+#mainLogoPage {
+	background: #e5e5e5;
+	padding: 15px 0;
+}
+
+.mainLogoPage {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.mainLogoPageEndTelAndBAsket {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 400px;
+}
+
+.mainLogoPageEndTel,
+.mainLogoPageEndBasket {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 13px;
+	gap: 10px;
+}
+
+.mainLogoPageEndTel h3 {
+	font-size: 25px;
+}
+
+.mainLogoPageEndBasket span h5 {
+	color: green;
+}
+
+.mainLogoPageEndTel span h5 {
+	color: green;
+}
+
+.seacrch {
+	width: 500px;
+}
+
+@media (max-width: 1230px) {
+	.mainLogoPageEndTel {
+		display: none;
+	}
+	.mainLogoPageEndTelAndBAsket {
+		width: 200px;
+		margin-left: 2pc;
+	}
+}
+@media (max-width: 1086px) {
+	.mainLogoPageEndTelAndBAsket {
+		width: 50px;
+		margin-left: 2pc;
+	}
+	.sss {
+		display: none;
+	}
+}
+@media (max-width: 962px) {
+	.mainLogoPageEndTelAndBAsket {
+		width: 50px;
+		margin-left: 2pc;
+	}
+
+	.seacrch {
+		width: 400px;
+	}
+}
+@media (max-width: 853px) {
+	.mainLogoPageEndTelAndBAsket {
+		width: 50px;
+		margin-left: 2pc;
+	}
+
+	.seacrch {
+		width: 300px;
+	}
+}
+@media (max-width: 730px) {
+	.mainLogoPageEndTelAndBAsket {
+		width: 50px;
+		margin-left: 2pc;
+	}
+
+	.seacrch {
+		width: 200px;
+	}
+	.nnn {
+		font-size: 10px;
+	}
+}
+@media (max-width: 579px) {
+	.mainLogoPageEndTelAndBAsket {
+		width: 50px;
+		margin-left: 2pc;
+	}
+
+	.seacrch {
+		width: 130px;
+	}
+	.nnn {
+		font-size: 10px;
+	}
+	.mainLogoPageCenterImgImg {
+		width: 120px;
+	}
+}
+@media (max-width: 441px) {
+	.seacrch {
+		width: 130px;
+	}
+	.nnn {
+		font-size: 10px;
+	}
+	.seacrch {
+		height: 30px;
+	}
+	.mainLogoPageEndBasket {
+		display: none;
+	}
+	.mainLogoPageEndTelAndBAsket {
+		display: none;
+	}
+	.mainLogoPage {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+	}
+}
+
+@media (max-width: 360px) {
+	.seacrch {
+		height: 30px;
+		width: 120px;
+	}
+	.mainLogoPageCenterImgImg {
+		width: 120px;
+	}
+}
+
+@media (max-width: 340px) {
+	.seacrch {
+		height: 25px;
+		width: 100.34px;
+	}
+	.mainLogoPageCenterImgImg {
+		width: 100px;
+	}
+}

@@ -1,0 +1,97 @@
+#header {
+	background: rgb(30, 30, 105);
+	color: white;
+	padding: 13px 0;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.headerMainLeft {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 310px;
+}
+
+.headerMainLeft h1 {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.headerMainLeft h2 {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.s {
+	display: none;
+}
+
+@media (max-width: 599px) {
+	.headerMainLeft select,
+	.headerMainrigth h1 {
+		font-size: 12px;
+	}
+
+	.headerMainLeft {
+		gap: 10px;
+		width: 200px;
+	}
+}
+
+@media (max-width: 434px) {
+	.headerMainLeft h2 {
+		display: none;
+	}
+	.s {
+		display: block;
+		width: 19px;
+		font-size: 10px;
+	}
+	.MuiBadge-root {
+		width: 20px;
+		height: 20px;
+	}
+	.MuiBadge-badge {
+		width: 10px;
+		height: 10px;
+	}
+	.headerMainrigth {
+		display: flex;
+		align-items: center;
+	}
+
+	.headerMainrigth h1 {
+		width: 100px;
+	}
+}
+
+@media (max-width: 365px) {
+	.headerMainLeft select,
+	.headerMainrigth h1 {
+		font-size: 10px;
+	}
+
+	.headerMainMiniBlock {
+		display: none;
+	}
+	.headerMainLeft {
+		gap: 10px;
+		width: 20px;
+	}
+	.headerMainLeft h2 {
+		display: none;
+	}
+}
+
+.headerMainrigth {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
